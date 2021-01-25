@@ -5,6 +5,7 @@ import Footer from './Footer.jsx'
 import './App.css';
 
 function App() {
+  
   return (
 
 
@@ -15,6 +16,7 @@ function App() {
       </div>
 
       <div>
+       
         <Results />
       </div>
       <Footer/>

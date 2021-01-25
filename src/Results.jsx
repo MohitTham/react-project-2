@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
+//joke engine
 function Results(props) {
-
+//used for search feature
   const searchOptions = {
-    
     type: '',
     random: 'random',
     api: 'https://official-joke-api.appspot.com/jokes/',
@@ -15,7 +15,8 @@ function Results(props) {
   console.log(url)
   let response =''
   let jsonResponse=''
-
+  
+//getting joke data
   const getJoke = async () => {
    
     response = await fetch(url)
@@ -25,7 +26,7 @@ function Results(props) {
     setPunch("") 
 
   }
-
+//pulling the punchline data
   function getPunch(){
     setPunch(jokes.punchline) 
     console.log("hello")
