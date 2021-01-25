@@ -2,14 +2,17 @@
 
 For my application I did a joketelling app that utlized a joke api. The goal here was to create an app to give a few good laughs all mixed with a comical background and while also displaying some react skills. 
 
+<img src="joketeller.PNG">
+
+
 ## Technologies Used
 
--Javascript
--React
--Html
--JSON
--HTML
--CSS
+- Javascript
+- React
+- Html
+- JSON
+- HTML
+- CSS
 
 ## Instructions
 
